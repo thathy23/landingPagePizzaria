@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cardápio</title>
+  <style>
+    body {
+      color:brown;
+      background-color: bisque;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: justify;
+      padding: 16px;
+    }
+
+    ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  padding: 16px;
+}
+    
+    a {
+      font size: 200px ;
+      color:crimson;
+      text-decoration: none;
+      text-align: right;
+    }
+    a:hover {
+      color: red;
+    }  
+    header img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 5px solid crimson;
+}
+.center {
+  text-align: center;
+  justify-content: space-between;
+}
+
+.sabores {
+    text-align: center;
+    background-color:bisque;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: red;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color:bisque;
+}
+
+tr:hover {
+    background-color:bisque;
+}
+</style>
+
+</head>
+<body>
+  <div class="container">        
+    <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a> 
+          </li>
+          <li>
+              <a href="contato.html">Contato</a>
+          </li>
+          <li>
+              <a href="sobre_nos.html">Sobre nós</a>
+          </li>
+        </ul>
+    </nav>  
+  
+  </div>
+  <header>
+    <div class="center">
+        <img src="./img/logo.png" alt="pizza artesanal">
+        <h1>Cardápio</h1>
+        <h3>Massas artesanais</h3>
+    </div>            
+</header>
+    <div class="sabores">
+    
+        <table>
+            <thead>
+                <tr>
+                    <th>Sabor</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Margherita</td>
+                    <td>Tomate, mussarela e manjericão</td>
+                    <td>R$ 55,00</td>
+                </tr>
+                <tr>
+                    <td>Calabresa</td>
+                    <td>Calabresa, cebola e azeitonas</td>
+                    <td>R$ 55,00</td>
+                </tr>
+                <tr>
+                    <td>Frango com Catupiry</td>
+                    <td>Frango desfiado e catupiry</td>
+                    <td>R$ 55,00</td>
+                </tr>
+                <tr>
+                    <td>Portuguesa</td>
+                    <td>Presunto, ovo, cebola e azeitonas</td>
+                    <td>R$ 55,00</td>              
+                </tr>
+                <tr>
+                  <td>Lombinho Canadense</td>
+                  <td>Lombinho canadense,tomate seco e manjericão</td>
+                  <td>R$ 65,00</td>              
+              </tr>
+                
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
